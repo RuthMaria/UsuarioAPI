@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Identity;
+using UsuariosApi.Services;
 using UsuariosAPI.Data;
 using UsuariosAPI.Models;
 using UsuariosAPI.Services;
@@ -14,7 +15,9 @@ builder.Services
     .AddDefaultTokenProviders(); 
 
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
-builder.Services.AddScoped<CadastroService>();
+builder.Services.AddScoped<UsuarioService>();
+builder.Services.AddScoped<TokenService>();
+
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
