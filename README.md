@@ -19,15 +19,9 @@
 
 ## :books: Sobre
 
-O Screen Sound é uma aplicação que permite:
-
-- Registar artistas
-- Registrar musicas de um artista
-- Listar artistas
-- Listar músicas de um artista
-- Listar músicas por ano de lançamento
-
-Onde foi criada uma API com C# utilizando um template mínimo, ao qual foi aplicado boas práticas na sua construção e utilização do Swagger para documentá-la.
+Aborda a criação de um login, cadastro e o controle de acesso de usuários.
+Também explora como abstrair esse acesso, o que é o Identity e como ele pode judar.
+Além disso, aborda o conceito de JWT (JSON Web Token), como transmitir informações por meio de um token e como validar se o acesso a um determinado recurso é permitido.
 
 <a id="technologies"></a><br>
 
@@ -36,6 +30,7 @@ Onde foi criada uma API com C# utilizando um template mínimo, ao qual foi aplic
 - C#
 - SQL Server
 - Entity Framework
+- Identity
 
 <a id="preview"></a><br>
 
@@ -50,7 +45,7 @@ Onde foi criada uma API com C# utilizando um template mínimo, ao qual foi aplic
 - Clonar este repositório
 
 ```
-git clone https://github.com/RuthMaria/ScreenSound.API.git
+git clone https://github.com/RuthMaria/UsuarioAPI.git
 ```
 
 - Rodar o projeto no Visual Studio
